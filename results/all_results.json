@@ -1,0 +1,11 @@
+{
+  "EfficientNetB6": {"accuracy": 0.98, "auc": 0.9972, "loss": 0.0607, "img_size": 528, "framework": "keras", "confusion_matrix": [[140,8],[0,152]]},
+  "EfficientNetV2S": {"accuracy": 0.9745, "auc": 0.9953, "loss": 0.0802, "img_size": 384, "framework": "keras", "confusion_matrix": [[142,6],[0,152]]},
+  "EfficientNetB4": {"accuracy": 0.96, "auc": 0.9925, "loss": 0.116, "img_size": 380, "framework": "keras", "confusion_matrix": [[144,4],[6,146]]},
+  "DenseNet121": {"accuracy": 0.9564, "auc": 0.9907, "loss": 0.1563, "img_size": 224, "framework": "keras", "confusion_matrix": [[141,7],[2,150]]},
+  "ResNet50": {"accuracy": 0.9545, "auc": 0.9918, "loss": 0.1583, "img_size": 224, "framework": "keras", "confusion_matrix": [[141,7],[3,149]]},
+  "EfficientNetB0": {"accuracy": 0.9491, "auc": 0.9908, "loss": 0.1573, "img_size": 224, "framework": "keras", "confusion_matrix": [[141,7],[9,143]]},
+  "MobileNetV3Large": {"accuracy": 0.9418, "auc": 0.9876, "loss": 0.1528, "img_size": 224, "framework": "keras", "confusion_matrix": [[142,6],[11,141]]},
+  "MobileViT_XXS": {"accuracy": 0.9364, "auc": 0.9845, "loss": 0.1709, "img_size": 256, "framework": "pytorch", "confusion_matrix": [[141,7],[8,144]]},
+  "EfficientFormerV2_S1": {"accuracy": 0.9364, "auc": 0.9891, "loss": 0.2036, "img_size": 224, "framework": "pytorch", "confusion_matrix": [[138,10],[4,148]]}
+}

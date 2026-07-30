@@ -1,0 +1,30 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Secrets and local Streamlit configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated reports and local test output
+*.pdf
+results/generated/
+
+# Large, locally supplied model artifacts. Do not commit model weights to Git.
+# Store them in a private model registry or Git LFS, then place them here locally.
+models/*.keras
+models/*.pt
+general_risk/trained_models.joblib
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

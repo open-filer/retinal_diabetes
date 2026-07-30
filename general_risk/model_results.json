@@ -1,0 +1,98 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.7078,
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1_score": 0.5455,
+    "confusion_matrix": [
+      [
+        82,
+        18
+      ],
+      [
+        27,
+        27
+      ]
+    ]
+  },
+  "Random Forest": {
+    "accuracy": 0.7403,
+    "precision": 0.6522,
+    "recall": 0.5556,
+    "f1_score": 0.6,
+    "confusion_matrix": [
+      [
+        84,
+        16
+      ],
+      [
+        24,
+        30
+      ]
+    ]
+  },
+  "K-Nearest Neighbors": {
+    "accuracy": 0.7403,
+    "precision": 0.6346,
+    "recall": 0.6111,
+    "f1_score": 0.6226,
+    "confusion_matrix": [
+      [
+        81,
+        19
+      ],
+      [
+        21,
+        33
+      ]
+    ]
+  },
+  "Support Vector Machine": {
+    "accuracy": 0.7403,
+    "precision": 0.6522,
+    "recall": 0.5556,
+    "f1_score": 0.6,
+    "confusion_matrix": [
+      [
+        84,
+        16
+      ],
+      [
+        24,
+        30
+      ]
+    ]
+  },
+  "XGBoost": {
+    "accuracy": 0.7597,
+    "precision": 0.6667,
+    "recall": 0.6296,
+    "f1_score": 0.6476,
+    "confusion_matrix": [
+      [
+        83,
+        17
+      ],
+      [
+        20,
+        34
+      ]
+    ]
+  },
+  "Ensemble (Voting)": {
+    "accuracy": 0.7468,
+    "precision": 0.6596,
+    "recall": 0.5741,
+    "f1_score": 0.6139,
+    "confusion_matrix": [
+      [
+        84,
+        16
+      ],
+      [
+        23,
+        31
+      ]
+    ]
+  }
+}
