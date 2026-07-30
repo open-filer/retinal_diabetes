@@ -40,6 +40,16 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
+## Deploy to Streamlit Community Cloud
+
+This app requires **Python 3.11**. TensorFlow does not currently provide a compatible package for the Python 3.14 runtime, so deployment will fail if that version is selected.
+
+1. In Streamlit Community Cloud, create the app from this repository and choose `main` with `app.py` as the entrypoint.
+2. Open **Advanced settings** and select **Python 3.11** before deploying.
+3. If the app was already created with Python 3.14, delete it and create it again with Python 3.11; Community Cloud cannot change an existing app's Python version in place.
+
+After dependencies install, add the approved model artifacts through Git LFS or another private model-delivery mechanism. The repository intentionally does not contain model weights, so image predictions will remain unavailable until those files are supplied.
+
 ## Secrets and external services
 
 The application uses no API keys, backend API calls, databases, or cloud credentials. It only loads a public Google Fonts stylesheet in the browser. `.env` files and Streamlit's `secrets.toml` are ignored so credentials added later cannot be committed accidentally.
